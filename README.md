@@ -6,10 +6,11 @@
 
 ---
 
-## 🔗 Live Demo
-**Production URL:** [https://grocery-store-mw3h97l65-terukotinaveen-4272s-projects.vercel.app](https://grocery-store-mw3h97l65-terukotinaveen-4272s-projects.vercel.app)
 
-*(You can update this link if you add a custom domain in Vercel).*
+
+## 🔗 Live Demo
+**Production URL:** [grocery-store-jwt.vercel.app](https://grocery-store-jwt.vercel.app/)
+
 
 ---
 
