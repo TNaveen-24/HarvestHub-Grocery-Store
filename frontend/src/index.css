@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* Custom Navbar Animations */
+@keyframes float-diamond {
+  0%,
+  100% {
+    transform: translateY(0px) rotate(45deg);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translateY(-20px) rotate(225deg);
+    opacity: 0.1;
+  }
+}
+
+@keyframes float-oval {
+  0%,
+  100% {
+    transform: translateY(0px) scaleX(1);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translateY(-15px) scaleX(1.2);
+    opacity: 0.05;
+  }
+}
+
+@keyframes pulse-soft {
+  0%,
+  100% {
+    transform: scale(1) translateY(0px);
+    opacity: 0.15;
+  }
+  50% {
+    transform: scale(1.1) translateY(-10px);
+    opacity: 0.05;
+  }
+}
+
+.animate-float-diamond {
+  animation: float-diamond 8s ease-in-out infinite;
+}
+
+.animate-float-oval {
+  animation: float-oval 6s ease-in-out infinite;
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 4s ease-in-out infinite;
+}

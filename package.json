@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "npm --prefix backend run dev",
+    "start": "npm --prefix backend start"
+  },
+  "dependencies": {
+    "react-router-dom": "^7.9.6"
+  }
+}
